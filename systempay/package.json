@@ -1,0 +1,39 @@
+{
+  "name": "systempay",
+  "version": "1.0.2",
+  "description": "Node.js SystemPay webservice v5 soap connector",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test_systemPay.js"
+  },
+  "keywords": [
+    "systemPay"
+  ],
+  "bugs": {
+    "url": "http://github.com/Gozala/crypto/issues/"
+  },
+  "homepage": "https://github.com/Gozala/crypto#readme",
+  "author": "Sherif negm",
+  "maintainers": [
+    {
+      "name": "Chicoo",
+      "email": "chicoo2006@gmail.com"
+    }
+  ],
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://pajhome.org.uk/site/legal.html#bsdlicense"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:sherifnegm/systempay.git"
+  },
+  "dependencies": {
+    "crypto": "0.0.3",
+    "dateformat": "^1.0.12",
+    "soap": "^0.13.0",
+    "uuid": "^2.0.1"
+  }
+}
